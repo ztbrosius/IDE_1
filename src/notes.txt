@@ -1,0 +1,44 @@
+Overall Problem:
+
+Is it worth the gas savings costs to buy an electric car such as a Tesla vs. a regular gasoline car such as a Toyota Camry.  While there are many variables (payments, tax credits, maintenance costs, subscriptions, etc.) that one may consider with the decision, we will only be looking at the following so the program will not get too complicated:
+
+    Monthly finance payment for each car in the comparison. (We will assume we will finance both cars the same length and same interest rate)
+    Gas/Electricity cost per mile.
+    Miles driven weekly.
+    Monthly costs (car payment, fuel/electric costs) - We may use 4.3 as an average of weeks per month for our calculations.
+    Weekly costs (fuel/electric costs)
+    Create a main (driver) program that will serve as your program to get input, perform calculations, and provide output.
+    You are required to have at least two methods that return data.
+    Your program variables should have the proper data types.
+    Variable and method identifiers (names) should follow proper naming conventions (camelCase, all caps for constants, etc.) as suggested in the book and lectures.
+    You should have at least one constant variable.
+    Be sure to place your name, course, and an overview about the program in the top of your main java file using comments.
+    Your source code should have comments explaining what your program is doing.
+
+-- Ideas for the two required methods
+    Method to calculate data for the gas car?
+    Method to calculate data for the ev?
+
+    - need input from the user
+        scanner
+Step 1 - Let's get the * output going & the title
+Step 2 - Get a scanner object working to ask questions about the monthly payment
+Step 3 - Get the monthly finance payment for the gas car
+Step 4 - Get the cost of gas per gallon
+Step 5 - Get the average miles per gallon of gas the car is rated at
+
+Needed to calculate weekly gas costs:
+    miles driven
+    cost of gas per gallon
+    avg mileage for the car
+
+# of gallons of gas used each week:
+   weekly gallons = weekly miles / avg miles a gallon
+   weekly gas cost = weekly gallons * gas gallon cost
+   return weekly gas cost
+
+get data about the electric vehicle
+perform calculations for the electric vehicle
+create a weekly ev costs method
+calculate monthly costs = weekly costs * 4.3 //weeks in a month
+do comparison data and output
